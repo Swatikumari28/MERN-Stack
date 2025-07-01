@@ -1,0 +1,19 @@
+{
+  "name": "day8-part1",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swatikumari28/MERN-class/issues"
+  },
+  "homepage": "https://github.com/Swatikumari28/MERN-class#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^19.1.0"
+  }
+}
