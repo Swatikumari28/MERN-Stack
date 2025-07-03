@@ -1,6 +1,5 @@
 import { useState } from "react";
-import "./index.css"; // <- your external stylesheet
-
+import "./index.css";
 const App = () => {
   const [bulbs, setBulbs] = useState([false, false, false, false, false]);
 
@@ -9,8 +8,6 @@ const App = () => {
     updated[index] = !updated[index];
     setBulbs(updated);
   };
-
-  // Local inline component for bulb image
   const BulbImage = ({ isOn }) => {
     const bulbOn = "https://www.w3schools.com/js/pic_bulbon.gif";
     const bulbOff = "https://www.w3schools.com/js/pic_bulboff.gif";
